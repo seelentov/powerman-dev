@@ -1,0 +1,123 @@
+.footer {
+  color: white;
+  padding-top: 60px;
+  background:#20324C;
+
+  // .footer__container
+  
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  // .footer__left
+  
+  &__left {
+
+  }
+  
+  // .footer__logo
+  
+  &__logo {
+    
+  }
+  
+  // .footer__social
+  
+  &__social {
+    width: 221px;
+    border-top: 1px solid #FFFFFF1A;
+    padding-top: 22px;
+  }
+   
+  // .footer__navs
+  
+  &__navs {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    margin-bottom: 54px;
+  }
+  
+  // .footer__copyright
+  
+  &__copyright {
+    border-top: 1px solid #FFFFFF1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    gap: 29px;
+    color: #8C9CB3;
+  }
+  }
+  .footer-social {
+  
+  // .footer-social__vk
+  
+  &__vk {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFFFFF1A;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+      background: #333333
+    }
+  }
+  
+  // .footer-social__vk-logo
+  
+  &__vk-logo {}
+  }
+  .footer-nav {
+  
+  // .footer-nav__products
+  
+  &__products {
+
+  }
+  
+  // .footer-nav__title
+  
+  &__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  // .footer-nav__link
+  
+  &__link {
+    margin: 3px 0;
+    transition: all 0.2s ease-in-out;
+    font-weight: 300;
+    &:hover{
+      color: #FF0A14;
+    }
+  }
+  
+  // .footer-nav__company
+  
+  &__company {}
+  
+  
+  // .footer-nav__support
+  
+  &__support {}
+  }
+  .container {
+  }
+  .footer-copyright {
+  
+  // .footer-copyright__policy
+  
+  &__policy {
+    transition: all 0.2s ease-in-out;
+    &:hover{
+      color: white
+    }
+  }
+  }
+  

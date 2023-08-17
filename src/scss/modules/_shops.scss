@@ -1,0 +1,48 @@
+.shops {
+  padding: 100px 0;
+  background: #F9F9F9;
+  // .shops__container
+  &__top{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__container {}
+  
+  // .shops__header
+  
+  &__header {
+    margin-bottom: 30px;
+  }
+  
+  // .shops__items
+  
+  &__items {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  }
+  .shops-items {
+  
+  // .shops-items__item
+  
+  &__item {
+    width: 221px;
+    height: 150px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  }
+  .shops-item {
+  
+  // .shops-item__img
+  
+  &__img {
+    object-fit: contain;
+    max-width: 100%;
+  }
+  }
+  

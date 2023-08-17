@@ -1,0 +1,147 @@
+@media(max-width:1023px){
+  
+  .wrapper{
+    padding-top: 60px;
+  }
+  .header{
+    height: 60px;
+    background: white;
+    position: fixed;
+    width: 100%;
+  }
+  .header__logo{
+    & img {
+      width: 107px;
+    }
+    
+  }
+  .header__container{
+    justify-content: start;
+  }
+  .header__nav{
+    display: none;
+  }
+  .header__nav-mobile{
+    display: block;
+  }
+  
+  
+  .catalog-items__item{
+    height: 100%;
+    width: 320px;
+    flex-direction: column;
+    background: white;
+  }
+  .catalog-item{
+    &__img{
+      width: 100%;
+    }
+    &__content{
+      width: 100%;
+    }
+  }
+  .bestsellers-items__item{
+    width: 350px;
+  }
+  .contacts__service{
+    padding: 50px;
+  }
+  .contacts__offices{
+    padding: 50px;
+  }
+  .contacts__content{
+    gap: 28px !important;
+    flex-direction: column !important;
+  }
+}
+@media(max-width:767px){
+  .banner-item__text-header{
+    font-size: 54px !important;
+    line-height: 50px !important;
+  }
+  .banner-item__text-desc{
+    font-size: 15px !important;
+  }
+  .banner-items__item{
+    align-items: flex-start;
+  }
+  .banner-item__text{
+    margin-top: 36px;
+  }
+  .banner-items__item{
+    background: url(../img/banners/banner-mobile.jpg) 0 0 no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .catalog{
+    padding: 20px 0 !important;
+    &__top{
+      margin-bottom: 30px;
+      flex-direction: column;
+    }
+    &__header{
+      margin-bottom: 0;
+    }
+  }
+  
+  .about{
+    background: url(../img/bgs/about-mobile.jpg) 0 0 no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding: 20px 0 264px 0;
+  }
+  .about__text{
+    width: 100%;
+  }
+  .bestsellers{
+    padding: 20px 0 !important;
+    &__top{
+      margin-bottom: 30px;
+      flex-direction: column;
+    }
+  }
+  .shops{
+    padding: 20px 0 !important;
+    &__top{
+      margin-bottom: 30px;
+      flex-direction: column;
+    }
+    &__header {
+      margin-bottom: 30px;
+    }
+  }
+  
+  .bestsellers-items__item{
+    width: 288px;
+  }
+  .news{
+    padding: 20px 0 !important;
+    &__top{
+      margin-bottom: 30px;
+      flex-direction: column;
+    }
+  }
+  .faq{
+    padding: 20px 0 !important;
+    &__top{
+      margin-bottom: 30px;
+      flex-direction: column;
+    }
+  }
+  .footer__navs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+  }
+  .footer__container{
+    flex-direction: column;
+    gap: 43px;
+  }
+  .footer__copyright{
+    padding: 15px;
+    align-items: flex-start;
+    gap: 5px;
+    flex-direction: column;
+  }
+}

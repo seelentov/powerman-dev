@@ -1,0 +1,33 @@
+.about {
+  padding: 100px 0;
+  background: url(../img/bgs/about.jpg) 0 0 no-repeat;
+    background-position: center center;
+    background-size: cover;
+  // .about__container
+  
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  // .about__header
+  
+  &__header {
+    color: #fff;
+  }
+  
+  // .about__text
+  
+  &__text {
+    color: #fff;
+    width: 50%;
+    font-weight: 300;
+  }
+  
+  // .about__more
+  
+  &__more {}
+  }
+
+  

@@ -1,0 +1,150 @@
+.contacts {
+  padding-bottom: 100px;
+  // .contacts__container
+  
+  &__container {}
+  
+  // .contacts__content
+  
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  // .contacts__offices
+  
+  &__offices {
+    background: #F9F9F9;
+    padding: 50px 150px 50px 50px;
+  }
+  
+  // .contacts__service
+  
+  &__service {
+    background: #F9F9F9;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  }
+  .container {
+  }
+  .contacts-offices {
+  
+  // .contacts-offices__header
+  
+  &__header {
+    margin-bottom: 30px;
+  }
+  
+  // .contacts-offi ces__items
+  
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  }
+  .section-header {
+  }
+  .contacts-item {
+  
+  // .contacts-item__header
+  
+  &__header {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  // .contacts-item__address
+  
+  &__address {
+    gap: 5px;
+    align-items: center;
+    display: flex;
+    &:before{
+      content:url(../img/icons/address.svg);
+    }
+    & a{
+      display: inline;
+      color: #36CA78;
+      text-decoration:underline !important;
+      &:hover{
+        color: #283951;
+        ;
+      }
+    }
+  }
+  
+  // .contacts-item__phone
+  
+  &__phone {
+    gap: 5px;
+    align-items: center;
+    display: flex;
+    &:before{
+      content:url(../img/icons/call.svg);
+    }
+  }
+  
+  // .contacts-item__fax
+  
+  &__fax {
+    gap: 5px;
+    align-items: center;
+    display: flex;
+    &:before{
+      content:url(../img/icons/fax.svg);
+    }
+  }
+  }
+  .contacts-service {
+  
+  // .contacts-service__header
+  
+  &__header {
+    margin-bottom: 30px;
+  }
+  
+  // .contacts-service__items
+  
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  }
+  .contacts-service {
+    
+    // .contacts-service__btns-services
+    &__btns {
+      display: flex;
+      justify-content: space-between;
+      margin-top: auto;
+      gap: 20px;
+    }
+    &__btns-services {
+      margin-top: 20px;
+      width: 296.5px;
+      height: 44px;
+      border: 1px solid #FF0A14;
+      background: none !important;
+      color: #FF0A14 !important;
+      font-weight: 700;
+      &:hover{
+        color: #95060b !important;
+        border: 1px solid #95060b;
+      }
+    }
+    
+    // .contacts-service__btns-callback
+    
+    &__btns-callback {
+      margin-top: 20px;
+      width: 296.5px;
+      height: 44px;
+      border: 1px solid #FF0A14
+    }
+    }
+    

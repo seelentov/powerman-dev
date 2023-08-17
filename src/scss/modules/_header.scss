@@ -1,0 +1,252 @@
+.header {
+  z-index: 999;
+  height: 90px;
+  border-bottom: 1px solid #0000000D;
+  // .header__container
+  
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    gap: 35px;
+  }
+  
+  // .header__logo
+  
+  &__logo {
+    flex-shrink: 0;
+  }
+  
+  // .header__search
+  
+  &__search {
+    width: 250px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background: #F9F9F9;
+    border: #0000000D solid 1px;
+    flex-shrink: 0;
+  }
+  
+  // .header__nav
+  
+  &__nav {
+    background: white;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  // .header__btn
+  
+  &__btn {
+    width: 143px;
+    height: 44px;
+
+  }
+  &__btn-mobile {
+    width: 143px;
+    height: 44px;
+
+  }
+  
+  // .header__social
+  
+  &__social { 
+    padding-left: 35px;
+    border-left: 1px solid #0000000D;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  }
+  .container {
+  }
+  .header-search {
+  
+  // .header-search__input
+  
+  &__input {
+    height: 100%;
+    color: #8C9CB3;
+    background: none;
+    border: none;
+  }
+  &__icon {}
+  }
+  .header-nav {
+  
+  // .header-nav__link
+  
+  &__link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px transparent solid;
+    transition: all 0.2s ease-in;
+    &:hover{
+      border-bottom: 3px #FF0A14 solid;
+    }
+  }
+  }
+  .header-btn {
+  
+  // .header-btn__btn
+  
+  &__btn {
+    font-weight: 700; 
+  }
+  &__btn-mobile{
+    display: block;
+  }
+  }
+  .header-social {
+  
+  // .header-social__vk
+  
+  &__vk {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0000000D;
+    transition: all 0.1s ease-in;
+    &:hover{
+      background: #e2e2e2
+    }
+  }
+  &__vk-logo {}
+  }
+  .header {
+  
+    // .header__nav-mobile
+    
+    &__nav-mobile {
+      & .nav-mobile__btn-close{
+        display: none;
+      }
+      display: none;
+      &.active{
+        .nav-mobile__btn-close{
+          display: block;
+        }
+        .nav-mobile__btn-open{
+          display: none;
+        }
+        .nav-mobile__nav{
+          right: 0px;
+          }
+      }
+    }
+    }
+    .nav-mobile {
+    
+    // .nav-mobile__btn
+    
+    &__btn {
+      width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0000000D;
+    transition: all 0.1s ease-in;
+    &:hover{
+      background: #e2e2e2
+    }
+    }
+    
+    // .nav-mobile__nav
+    
+    &__nav {
+      position: absolute;
+      top: 60px;
+      right: 100%;
+      width: 100%;
+      height: 100vh;
+      overflow: scroll;
+      z-index: 999;
+      background: #ffffff;
+      transition: all 0.2s ease-in-out;
+      padding: 20px;
+    }
+
+    }
+    .header__search-mobile{
+      margin-left: auto;
+    }
+    .header-nav-mobile {
+    
+    // .header-nav-mobile__link
+    
+    &__link {
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+margin: 15px 0;
+    }
+    }
+    .search-mobile{
+      display: none;
+      width: 90%;
+      & .header-search__input{
+        width: 100%;
+      }
+    }
+.search-mobile__btn{
+  width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.0509803922);
+    transition: all 0.1s ease-in;
+    &:hover{
+      background: #e2e2e2;
+    }
+}
+
+.search-mobile__block{
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  height: 136px;
+  position: absolute;
+  top: -250%;
+  left: 0;
+  z-index: 999;
+  background: white;
+  &.active{
+    top:0
+  }
+}
+
+.search-mobile{
+  margin: 0 auto;
+  width: 95%;
+  height: 44px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  background: #F9F9F9;
+  border: rgba(0, 0, 0, 0.0509803922) solid 1px;
+  flex-shrink: 0;
+  z-index: 1000;
+  display: none;
+}
+.search-mobile__close{
+  margin: 20px;
+  display: flex;
+    justify-content: flex-end;
+}
+.header__search-mobile{
+  display: none;
+}
