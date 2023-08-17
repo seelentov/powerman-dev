@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header class="header">
+  <div class="header__container container">
+    <div class="header__nav-mobile">
+      <div class="nav-mobile__btn">
+        <img class='nav-mobile__btn-open'src="img/menub.svg">
+        <img class='nav-mobile__btn-close' src="img/menub-close.svg">
+      </div>
+      <nav class="nav-mobile__nav">
+        <a href="#" class="header-nav-mobile__link">Продукция</a>
+      <a href="#" class="header-nav-mobile__link">Поддержка</a>
+      <a href="#" class="header-nav-mobile__link">Сервис</a>
+      <a href="#" class="header-nav-mobile__link">О компании</a>
+      <a href="#" class="header-nav-mobile__link">Центр зарузок</a>
+      <a href="#" class="header-nav-mobile__link">Контакты</a>
+      <div class="header__btn-mobile btn">
+        <button onclick='' class="header-btn__btn header-btn__btn-mobile">Где купить</button>
+      </div>
+      </nav>
+      
+    </div>
+    <a href="/" class="header__logo">
+      <img src="img/icons/logo.svg" alt="Powerman">
+    </a>
+    <div class="header__search">
+      <input placeholder='Поиск...' ="text" name="search" class="header-search__input">
+      <button class="header-search__btn">
+      <svg class='header-search__icon' width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M11.0208 10.0779L13.876 12.933L12.9332 13.8758L10.078 11.0207C9.05143 11.842 7.7495 12.3333 6.3335 12.3333C3.0215 12.3333 0.333496 9.64533 0.333496 6.33333C0.333496 3.02133 3.0215 0.333328 6.3335 0.333328C9.6455 0.333328 12.3335 3.02133 12.3335 6.33333C12.3335 7.74933 11.8422 9.05126 11.0208 10.0779ZM9.6833 9.58319C10.4985 8.74306 11.0002 7.59706 11.0002 6.33333C11.0002 3.75499 8.91183 1.66666 6.3335 1.66666C3.75516 1.66666 1.66683 3.75499 1.66683 6.33333C1.66683 8.91166 3.75516 11 6.3335 11C7.59723 11 8.74323 10.4983 9.58336 9.68313L9.6833 9.58319Z"
+          fill="#FF0A14" />
+      </svg>
+      </button>
+    </div>
+    <nav class="header__nav">
+      <a href="#" class="header-nav__link">Продукция</a>
+      <a href="#" class="header-nav__link">Поддержка</a>
+      <a href="#" class="header-nav__link">Сервис</a>
+      <a href="#" class="header-nav__link">О компании</a>
+      <a href="#" class="header-nav__link">Центр зарузок</a>
+      <a href="#" class="header-nav__link">Контакты</a>
+    </nav>
+    <div class="header__btn btn">
+      <button onclick='' class="header-btn__btn">Где купить</button>
+    </div>
+    <div class="header__search-mobile">
+      <div class="search-mobile__btn">
+        <svg class='header-search__icon' width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M11.0208 10.0779L13.876 12.933L12.9332 13.8758L10.078 11.0207C9.05143 11.842 7.7495 12.3333 6.3335 12.3333C3.0215 12.3333 0.333496 9.64533 0.333496 6.33333C0.333496 3.02133 3.0215 0.333328 6.3335 0.333328C9.6455 0.333328 12.3335 3.02133 12.3335 6.33333C12.3335 7.74933 11.8422 9.05126 11.0208 10.0779ZM9.6833 9.58319C10.4985 8.74306 11.0002 7.59706 11.0002 6.33333C11.0002 3.75499 8.91183 1.66666 6.3335 1.66666C3.75516 1.66666 1.66683 3.75499 1.66683 6.33333C1.66683 8.91166 3.75516 11 6.3335 11C7.59723 11 8.74323 10.4983 9.58336 9.68313L9.6833 9.58319Z"
+            fill="#FF0A14" />
+        </svg>
+      </div>
+      <div class="search-mobile__block">
+        <div class="search-mobile__close">
+          <img class='nav-mobile__close-btn' src="img/menub-close.svg">
+        </div>
+        <div class="search-mobile">
+          <input placeholder='Поиск...' ="text" name="search" class="header-search__input">
+          <button class="header-search__btn">
+          <svg class='header-search__icon' width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.0208 10.0779L13.876 12.933L12.9332 13.8758L10.078 11.0207C9.05143 11.842 7.7495 12.3333 6.3335 12.3333C3.0215 12.3333 0.333496 9.64533 0.333496 6.33333C0.333496 3.02133 3.0215 0.333328 6.3335 0.333328C9.6455 0.333328 12.3335 3.02133 12.3335 6.33333C12.3335 7.74933 11.8422 9.05126 11.0208 10.0779ZM9.6833 9.58319C10.4985 8.74306 11.0002 7.59706 11.0002 6.33333C11.0002 3.75499 8.91183 1.66666 6.3335 1.66666C3.75516 1.66666 1.66683 3.75499 1.66683 6.33333C1.66683 8.91166 3.75516 11 6.3335 11C7.59723 11 8.74323 10.4983 9.58336 9.68313L9.6833 9.58319Z"
+              fill="#FF0A14" />
+          </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="header__social">
+      <button class="header-social__vk">
+        <svg class='header-social__vk-logo' width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M7.67874 8.38095C3.17436 8.38095 0.440752 5.23227 0.334473 0H2.61583C2.68695 3.8435 4.42252 5.47458 5.75301 5.80707V0H7.94004V3.31614C9.22335 3.17286 10.5658 1.66411 11.0181 0H13.1684C12.824 2.04735 11.3625 3.55606 10.3285 4.17839C11.3625 4.68157 13.0261 5.99868 13.6678 8.38095H11.3034C10.8039 6.78847 9.57974 5.55509 7.94004 5.38763V8.38095H7.67874Z"
+            fill="#20324C" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+  <div class="wrapper">
+    <main>
+      <div class="homepage">
+        <section class="banner">
+  <div class="banner__items">
+    <div class="owl-carousel owl-theme banner__owlcarousel">
+      <div class="banner-items__item">
+        <div class="banner-item banner-item__container container">
+          <div class="banner-item__text">
+            <div class="banner-item__text-header">стабилизаторы<br>
+              и ибп</div>
+            <div class="banner-item__text-desc">Наилучшее соотношение цены и качества на рынке!</div>
+            <div class="banner-item__text-chars">
+              <div class="banner-item__text-char">
+                <svg class='text-char__icon' width="24" height="12" viewBox="0 0 24 12" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.0244 0.371765L18.7303 7.65324L19.6697 5.29687H24V6.70312H20.623L18.6843 11.5662L16.0244 4.40872L13.3415 11.6282L10.6585 4.4087L7.97559 11.6282L5.26967 4.34674L4.33027 6.70312H0V5.29687H3.37701L5.31574 0.433743L7.9756 7.59127L10.6585 0.371781L13.3415 7.59128L16.0244 0.371765Z"
+                    fill="#FF0A14" />
+                </svg>
+                <div class="text-char__text">мощность<br>
+                  <span>1000 - 10000 BA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="banner-items__item">
+        <div class="banner-item banner-item__container container">
+          <div class="banner-item__text">
+            <div class="banner-item__text-header">стабилизаторы<br>
+              и ибп</div>
+            <div class="banner-item__text-desc">Наилучшее соотношение цены и качества на рынке!</div>
+            <div class="banner-item__text-chars">
+              <div class="banner-item__text-char">
+                <svg class='text-char__icon' width="24" height="12" viewBox="0 0 24 12" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.0244 0.371765L18.7303 7.65324L19.6697 5.29687H24V6.70312H20.623L18.6843 11.5662L16.0244 4.40872L13.3415 11.6282L10.6585 4.4087L7.97559 11.6282L5.26967 4.34674L4.33027 6.70312H0V5.29687H3.37701L5.31574 0.433743L7.9756 7.59127L10.6585 0.371781L13.3415 7.59128L16.0244 0.371765Z"
+                    fill="#FF0A14" />
+                </svg>
+                <div class="text-char__text">мощность<br>
+                  <span>1000 - 10000 BA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="banner-items__item">
+        <div class="banner-item banner-item__container container">
+          <div class="banner-item__text">
+            <div class="banner-item__text-header">стабилизаторы<br>
+              и ибп</div>
+            <div class="banner-item__text-desc">Наилучшее соотношение цены и качества на рынке!</div>
+            <div class="banner-item__text-chars">
+              <div class="banner-item__text-char">
+                <svg class='text-char__icon' width="24" height="12" viewBox="0 0 24 12" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M16.0244 0.371765L18.7303 7.65324L19.6697 5.29687H24V6.70312H20.623L18.6843 11.5662L16.0244 4.40872L13.3415 11.6282L10.6585 4.4087L7.97559 11.6282L5.26967 4.34674L4.33027 6.70312H0V5.29687H3.37701L5.31574 0.433743L7.9756 7.59127L10.6585 0.371781L13.3415 7.59128L16.0244 0.371765Z"
+                    fill="#FF0A14" />
+                </svg>
+                <div class="text-char__text">мощность<br>
+                  <span>1000 - 10000 BA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        <section class="catalog">
+  <div class="catalog__container container">
+    <div class="catalog__top">
+      <h2 class="catalog__header section-header">
+        КАТАЛОГ ПРОДУКЦИИ
+      </h2>
+      <a href='#' class="catalog__more btn-more">
+        <p>Перейти в каталог</p>
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M7.00004 6.33337V4.33337L9.66671 7.00004L7.00004 9.66671V7.66671H4.33337V6.33337H7.00004ZM7.00004 0.333374C10.68 0.333374 13.6667 3.32004 13.6667 7.00004C13.6667 10.68 10.68 13.6667 7.00004 13.6667C3.32004 13.6667 0.333374 10.68 0.333374 7.00004C0.333374 3.32004 3.32004 0.333374 7.00004 0.333374ZM7.00004 12.3334C9.94671 12.3334 12.3334 9.94671 12.3334 7.00004C12.3334 4.05337 9.94671 1.66671 7.00004 1.66671C4.05337 1.66671 1.66671 4.05337 1.66671 7.00004C1.66671 9.94671 4.05337 12.3334 7.00004 12.3334Z" />
+        </svg>
+      </a>
+    </div>
+    <div class="catalog__items">
+      <div class="catalog__owlcarousel owl-carousel owl-theme">
+        <div class="catalog-items__item">
+          <div class="catalog-item__img">
+            <img class='catalog-item__img-img' src="img/catalog/product-2.png" alt="ибп">
+          </div>
+          <div class="catalog-item__content">
+            <div class="catalog-item__text">
+              <a href='#' class="catalog-item__header item-header">
+                Стабилизаторы
+              </a>
+              <div class="catalog-item__links">
+                <a href='#' class="catalog-item__links-link">AVS-D</a>
+                <a href='#' class="catalog-item__links-link">AVS-P</a>
+                <a href='#' class="catalog-item__links-link">AVS-C</a>
+              </div>
+            </div>
+            <a href='#' class="catalog-item__more btn-more">
+              <p>Смотреть все</p>
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M7.00004 6.33337V4.33337L9.66671 7.00004L7.00004 9.66671V7.66671H4.33337V6.33337H7.00004ZM7.00004 0.333374C10.68 0.333374 13.6667 3.32004 13.6667 7.00004C13.6667 10.68 10.68 13.6667 7.00004 13.6667C3.32004 13.6667 0.333374 10.68 0.333374 7.00004C0.333374 3.32004 3.32004 0.333374 7.00004 0.333374ZM7.00004 12.3334C9.94671 12.3334 12.3334 9.94671 12.3334 7.00004C12.3334 4.05337 9.94671 1.66671 7.00004 1.66671C4.05337 1.66671 1.66671 4.05337 1.66671 7.00004C1.66671 9.94671 4.05337 12.3334 7.00004 12.3334Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="catalog-items__item">
+          <div class="catalog-item__img">
+            <img class='catalog-item__img-img' src="img/catalog/product-3.png" alt="ибп">
+          </div>
+          <div class="catalog-item__content">
+            <div class="catalog-item__text">
+              <a href='#' class="catalog-item__header item-header">
+                Батареи
+              </a>
+              <div class="catalog-item__links">
+                <a href='#' class="catalog-item__links-link">Аккумуляторные батареи для ИБП</a>
+              </div>
+            </div>
+            <a href='#' class="catalog-item__more btn-more">
+              <p>Смотреть все</p>
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M7.00004 6.33337V4.33337L9.66671 7.00004L7.00004 9.66671V7.66671H4.33337V6.33337H7.00004ZM7.00004 0.333374C10.68 0.333374 13.6667 3.32004 13.6667 7.00004C13.6667 10.68 10.68 13.6667 7.00004 13.6667C3.32004 13.6667 0.333374 10.68 0.333374 7.00004C0.333374 3.32004 3.32004 0.333374 7.00004 0.333374ZM7.00004 12.3334C9.94671 12.3334 12.3334 9.94671 12.3334 7.00004C12.3334 4.05337 9.94671 1.66671 7.00004 1.66671C4.05337 1.66671 1.66671 4.05337 1.66671 7.00004C1.66671 9.94671 4.05337 12.3334 7.00004 12.3334Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="catalog-items__item">
+          <div class="catalog-item__img">
+            <img class='catalog-item__img-img' src="img/catalog/product-1.png" alt="ибп">
+          </div>
+          <div class="catalog-item__content">
+            <div class="catalog-item__text">
+              <a href='#' class="catalog-item__header item-header">
+                ИБП
+              </a>
+              <div class="catalog-item__links">
+                <a href='#' class="catalog-item__links-link">Линейно-интерактивный ИБП</a>
+                <a href='#' class="catalog-item__links-link">Онлайн ИБП</a>
+                <a href='#' class="catalog-item__links-link">ИБП для котлов</a>
+              </div>
+            </div>
+            <a href='#' class="catalog-item__more btn-more">
+              <p>Смотреть все</p>
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M7.00004 6.33337V4.33337L9.66671 7.00004L7.00004 9.66671V7.66671H4.33337V6.33337H7.00004ZM7.00004 0.333374C10.68 0.333374 13.6667 3.32004 13.6667 7.00004C13.6667 10.68 10.68 13.6667 7.00004 13.6667C3.32004 13.6667 0.333374 10.68 0.333374 7.00004C0.333374 3.32004 3.32004 0.333374 7.00004 0.333374ZM7.00004 12.3334C9.94671 12.3334 12.3334 9.94671 12.3334 7.00004C12.3334 4.05337 9.94671 1.66671 7.00004 1.66671C4.05337 1.66671 1.66671 4.05337 1.66671 7.00004C1.66671 9.94671 4.05337 12.3334 7.00004 12.3334Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        <section class="shops">
+  <div class="shops__container container">
+    <div class="shops__top">
+      <div class="shops__header section-header">
+        Где купить
+      </div>
+      <a href='#' class="shops__more btn-more">
+        <p>Все партнеры</p>
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M7.00004 6.33337V4.33337L9.66671 7.00004L7.00004 9.66671V7.66671H4.33337V6.33337H7.00004ZM7.00004 0.333374C10.68 0.333374 13.6667 3.32004 13.6667 7.00004C13.6667 10.68 10.68 13.6667 7.00004 13.6667C3.32004 13.6667 0.333374 10.68 0.333374 7.00004C0.333374 3.32004 3.32004 0.333374 7.00004 0.333374ZM7.00004 12.3334C9.94671 12.3334 12.3334 9.94671 12.3334 7.00004C12.3334 4.05337 9.94671 1.66671 7.00004 1.66671C4.05337 1.66671 1.66671 4.05337 1.66671 7.00004C1.66671 9.94671 4.05337 12.3334 7.00004 12.3334Z" />
+        </svg>
+      </a>
+    </div>
+    
+    <div class="shops__items">
+      <div class="shops-items__item shops-item">
+        <img class='shops-item__img'src="img/shops/shop-1.png" alt="Ситилинк">
+      </div>
+      <div class="shops-items__item shops-item">
+        <img class='shops-item__img'src="img/shops/shop-2.png" alt="DNS">
+      </div>
+      <div class="shops-items__item shops-item">
+        <img class='shops-item__img'src="img/shops/shop-3.png" alt="KNS">
+      </div>
+      <div class="shops-items__item shops-item">
+        <img class='shops-item__img'src="img/shops/shop-4.png" alt="OCS">
+      </div>
+      <div class="shops-items__item shops-item">
+        <img class='shops-item__img'src="img/shops/shop-5.png" alt="TradeicsBel">
+      </div>
+      <div class="shops-items__item shops-item">
+        <img class='shops-item__img'src="img/shops/shop-6.png" alt="OZON">
+      </div>
+    </div>
+  </div>
+</section>
+        <section class="about">
+  <div class="about__container container">
+    <div class="about__header section-header">
+      о нас
+    </div>
+    <div class="about__text">
+      Владельцем торговой марки POWERMAN является Торгово-промышленная группа Компаний «ТАЙПИТ».
+<br>
+<br>
+Группа Компаний была основана в 1991 году и является эксклюзивным дистрибьютором в России и странах СНГ товаров под торговыми марками Chairman, InWin, Konner, POWERMAN, HEBA. В настоящее время деятельность ТПГ «ТАЙПИТ» не ограничивается исключительно дистрибуцией. По ряду товарных групп мы осуществляем производство полного цикла в России.
+<br>
+<br>
+«ТАЙПИТ» входит в число лидеров на рынках офисных кресел, отопительного, компьютерного, электрического и электроустановочного оборудования. Мы не останавливаемся на достигнутом и находимся в постоянном поиске новых идей, обеспечивая тем самым своё непрерывное и поступательное развитие.
+    </div>
+    <a href='#' class="about__more btn-more">
+      <p>Подробнее</p>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7.00004 6.33337V4.33337L9.66671 7.00004L7.00004 9.66671V7.66671H4.33337V6.33337H7.00004ZM7.00004 0.333374C10.68 0.333374 13.6667 3.32004 13.6667 7.00004C13.6667 10.68 10.68 13.6667 7.00004 13.6667C3.32004 13.6667 0.333374 10.68 0.333374 7.00004C0.333374 3.32004 3.32004 0.333374 7.00004 0.333374ZM7.00004 12.3334C9.94671 12.3334 12.3334 9.94671 12.3334 7.00004C12.3334 4.05337 9.94671 1.66671 7.00004 1.66671C4.05337 1.66671 1.66671 4.05337 1.66671 7.00004C1.66671 9.94671 4.05337 12.3334 7.00004 12.3334Z" />
+            </svg>
+    </a>
+  </div>
+</section>
+        <section class="bestsellers">
+  <div class="bestsellers__container container">
+    <div class="bestsellers__top">
+      <div class="bestsellers__header section-header">
+        ХИТЫ продаж
+      </div>
+      <a href='#' class="bestsellers__more btn-more">
+        <p>Перейти в каталог</p>
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M7.00004 6.33337V4.33337L9.66671 7.00004L7.00004 9.66671V7.66671H4.33337V6.33337H7.00004ZM7.00004 0.333374C10.68 0.333374 13.6667 3.32004 13.6667 7.00004C13.6667 10.68 10.68 13.6667 7.00004 13.6667C3.32004 13.6667 0.333374 10.68 0.333374 7.00004C0.333374 3.32004 3.32004 0.333374 7.00004 0.333374ZM7.00004 12.3334C9.94671 12.3334 12.3334 9.94671 12.3334 7.00004C12.3334 4.05337 9.94671 1.66671 7.00004 1.66671C4.05337 1.66671 1.66671 4.05337 1.66671 7.00004C1.66671 9.94671 4.05337 12.3334 7.00004 12.3334Z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="bestsellers__items">
+      <div class="bestsellers__owlcarousel owl-carousel owl-theme">
+        <a href='' class="bestsellers-items__item bestsellers-item">
+          <div class="bestsellers-item__img">
+            <img class='bestsellers-item__img-img' src="img/catalog/product-4.png" alt="ИБП POWERMAN Back Pro 500">
+          </div>
+          <div class="bestsellers-item__content">
+            <div class="bestsellers-item__name item-header">
+              ИБП POWERMAN Back Pro 500
+            </div>
+            <div class="bestsellers-item__chars">
+              <div class="bestsellers-item__chars-item"><span>Мощность: </span>500 ВА / 300 Вт.</div>
+              <div class="bestsellers-item__chars-item"><span>Напряжение: </span>Модифицированная синусоида</div>
+              <div class="bestsellers-item__chars-item"><span>Aвтономная работа: </span>3-25 мин.</div>
+              <div class="bestsellers-item__chars-item"><span>Встроенные батареи: </span>12 В 4.5 Ач, 1 шт.</div>
+            </div>
+          </div>
+        </a>
+        <a href='' class="bestsellers-items__item bestsellers-item">
+          <div class="bestsellers-item__img">
+            <img class='bestsellers-item__img-img' src="img/catalog/product-4.png" alt="ИБП POWERMAN Back Pro 500">
+          </div>
+          <div class="bestsellers-item__content">
+            <div class="bestsellers-item__name item-header">
+              ИБП POWERMAN Back Pro 500
+            </div>
+            <div class="bestsellers-item__chars">
+              <div class="bestsellers-item__chars-item"><span>Мощность: </span>500 ВА / 300 Вт.</div>
+              <div class="bestsellers-item__chars-item"><span>Напряжение: </span>Модифицированная синусоида</div>
+              <div class="bestsellers-item__chars-item"><span>Aвтономная работа: </span>3-25 мин.</div>
+              <div class="bestsellers-item__chars-item"><span>Встроенные батареи: </span>12 В 4.5 Ач, 1 шт.</div>
+            </div>
+          </div>
+        </a>
+        <a href='' class="bestsellers-items__item bestsellers-item">
+          <div class="bestsellers-item__img">
+            <img class='bestsellers-item__img-img' src="img/catalog/product-4.png" alt="ИБП POWERMAN Back Pro 500">
+          </div>
+          <div class="bestsellers-item__content">
+            <div class="bestsellers-item__name item-header">
+              ИБП POWERMAN Back Pro 500
+            </div>
+            <div class="bestsellers-item__chars">
+              <div class="bestsellers-item__chars-item"><span>Мощность: </span>500 ВА / 300 Вт.</div>
+              <div class="bestsellers-item__chars-item"><span>Напряжение: </span>Модифицированная синусоида</div>
+              <div class="bestsellers-item__chars-item"><span>Aвтономная работа: </span>3-25 мин.</div>
+              <div class="bestsellers-item__chars-item"><span>Встроенные батареи: </span>12 В 4.5 Ач, 1 шт.</div>
+            </div>
+          </div>
+        </a>
+        <a href='' class="bestsellers-items__item bestsellers-item">
+          <div class="bestsellers-item__img">
+            <img class='bestsellers-item__img-img' src="img/catalog/product-4.png" alt="ИБП POWERMAN Back Pro 500">
+          </div>
+          <div class="bestsellers-item__content">
+            <div class="bestsellers-item__name item-header">
+              ИБП POWERMAN Back Pro 500
+            </div>
+            <div class="bestsellers-item__chars">
+              <div class="bestsellers-item__chars-item"><span>Мощность: </span>500 ВА / 300 Вт.</div>
+              <div class="bestsellers-item__chars-item"><span>Напряжение: </span>Модифицированная синусоида</div>
+              <div class="bestsellers-item__chars-item"><span>Aвтономная работа: </span>3-25 мин.</div>
+              <div class="bestsellers-item__chars-item"><span>Встроенные батареи: </span>12 В 4.5 Ач, 1 шт.</div>
+            </div>
+          </div>
+        </a>
+        <a href='' class="bestsellers-items__item bestsellers-item">
+          <div class="bestsellers-item__img">
+            <img class='bestsellers-item__img-img' src="img/catalog/product-4.png" alt="ИБП POWERMAN Back Pro 500">
+          </div>
+          <div class="bestsellers-item__content">
+            <div class="bestsellers-item__name item-header">
+              ИБП POWERMAN Back Pro 500
+            </div>
+            <div class="bestsellers-item__chars">
+              <div class="bestsellers-item__chars-item"><span>Мощность: </span>500 ВА / 300 Вт.</div>
+              <div class="bestsellers-item__chars-item"><span>Напряжение: </span>Модифицированная синусоида</div>
+              <div class="bestsellers-item__chars-item"><span>Aвтономная работа: </span>3-25 мин.</div>
+              <div class="bestsellers-item__chars-item"><span>Встроенные батареи: </span>12 В 4.5 Ач, 1 шт.</div>
+            </div>
+          </div>
+        </a>
+        <a href='' class="bestsellers-items__item bestsellers-item">
+          <div class="bestsellers-item__img">
+            <img class='bestsellers-item__img-img' src="img/catalog/product-4.png" alt="ИБП POWERMAN Back Pro 500">
+          </div>
+          <div class="bestsellers-item__content">
+            <div class="bestsellers-item__name item-header">
+              ИБП POWERMAN Back Pro 500
+            </div>
+            <div class="bestsellers-item__chars">
+              <div class="bestsellers-item__chars-item"><span>Мощность: </span>500 ВА / 300 Вт.</div>
+              <div class="bestsellers-item__chars-item"><span>Напряжение: </span>Модифицированная синусоида</div>
+              <div class="bestsellers-item__chars-item"><span>Aвтономная работа: </span>3-25 мин.</div>
+              <div class="bestsellers-item__chars-item"><span>Встроенные батареи: </span>12 В 4.5 Ач, 1 шт.</div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+        <section class="news">
+  <div class="news__container container">
+    <div class="news__top">
+      <div class="news__header section-header">
+        новости
+      </div>
+      <a href='#' class="news__more btn-more">
+        <p>Все новости</p>
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M7.00004 6.33337V4.33337L9.66671 7.00004L7.00004 9.66671V7.66671H4.33337V6.33337H7.00004ZM7.00004 0.333374C10.68 0.333374 13.6667 3.32004 13.6667 7.00004C13.6667 10.68 10.68 13.6667 7.00004 13.6667C3.32004 13.6667 0.333374 10.68 0.333374 7.00004C0.333374 3.32004 3.32004 0.333374 7.00004 0.333374ZM7.00004 12.3334C9.94671 12.3334 12.3334 9.94671 12.3334 7.00004C12.3334 4.05337 9.94671 1.66671 7.00004 1.66671C4.05337 1.66671 1.66671 4.05337 1.66671 7.00004C1.66671 9.94671 4.05337 12.3334 7.00004 12.3334Z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="news__items">
+      <div class="news__owlcarousel owl-carousel owl-theme">
+        <a href='#' class="news-items__item news-item">
+          <div class="news-item__date">
+            20 март, 2023
+          </div>
+          <div class="news-item__name item-header">
+            Обновление линейки ИБП Online RT
+          </div>
+          <div class="news-item__desc">
+            Обновление линейки ИБП Online RМодернизация затронула модели ИБП Online RT мощностью 1000/2000/3000 В
+          </div>
+        </a>
+        <a href='#' class="news-items__item news-item">
+          <div class="news-item__date">
+            20 март, 2023
+          </div>
+          <div class="news-item__name item-header">
+            Обновление линейки ИБП Online RT
+          </div>
+          <div class="news-item__desc">
+            Обновление линейки ИБП Online RМодернизация затронула модели ИБП Online RT мощностью 1000/2000/3000 В
+          </div>
+        </a>
+        <a href='#' class="news-items__item news-item">
+          <div class="news-item__date">
+            20 март, 2023
+          </div>
+          <div class="news-item__name item-header">
+            Обновление линейки ИБП Online RT
+          </div>
+          <div class="news-item__desc">
+            Обновление линейки ИБП Online RМодернизация затронула модели ИБП Online RT мощностью 1000/2000/3000 В
+          </div>
+        </a>
+        <a href='#' class="news-items__item news-item">
+          <div class="news-item__date">
+            20 март, 2023
+          </div>
+          <div class="news-item__name item-header">
+            Обновление линейки ИБП Online RT
+          </div>
+          <div class="news-item__desc">
+            Обновление линейки ИБП Online RМодернизация затронула модели ИБП Online RT мощностью 1000/2000/3000 В
+          </div>
+        </a>
+        <a href='#' class="news-items__item news-item">
+          <div class="news-item__date">
+            20 март, 2023
+          </div>
+          <div class="news-item__name item-header">
+            Обновление линейки ИБП Online RT
+          </div>
+          <div class="news-item__desc">
+            Обновление линейки ИБП Online RМодернизация затронула модели ИБП Online RT мощностью 1000/2000/3000 В
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+        <section class="faq">
+  <div class="faq__container container">
+    <div class="faq__top">
+      <div class="faq__header section-header">
+        Часто задаваемые вопросы
+      </div>
+      <a href='#' class="faq__more btn-more">
+        <p>Все вопросы</p>
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M7.00004 6.33337V4.33337L9.66671 7.00004L7.00004 9.66671V7.66671H4.33337V6.33337H7.00004ZM7.00004 0.333374C10.68 0.333374 13.6667 3.32004 13.6667 7.00004C13.6667 10.68 10.68 13.6667 7.00004 13.6667C3.32004 13.6667 0.333374 10.68 0.333374 7.00004C0.333374 3.32004 3.32004 0.333374 7.00004 0.333374ZM7.00004 12.3334C9.94671 12.3334 12.3334 9.94671 12.3334 7.00004C12.3334 4.05337 9.94671 1.66671 7.00004 1.66671C4.05337 1.66671 1.66671 4.05337 1.66671 7.00004C1.66671 9.94671 4.05337 12.3334 7.00004 12.3334Z" />
+        </svg>
+      </a>
+    </div>
+    
+    <div class="faq__items">
+      <div class="faq-items__item faq-item active">
+        <div class="faq-item__title faq-item__title-js item-header">
+          <p class="faq-item__title-text">Как определить мощность ИБП?</p>
+          <div class="faq-item__title-sign">
+            <div class="sign-line-1 sign-line"></div>
+            <div class="sign-line-2 sign-line"></div>
+          </div>
+        </div>
+        <div class="faq-item__text faq-item__text-js">
+          При покупке ИБП клиенты часто не обращают внимание на то, что в обозначении модели ИБП приводится его полная
+          мощность в Вольт-Амперах (ВА). При этом, активная мощность ИБП, которая измеряется в Ваттах (Вт), меньше
+          полной мощности. Например: максимальная активная мощность ИБП Back Pro 600 (600 ВА) составляет 360 Вт;
+          максимальная активная мощность ONLINE 1000 - 800 Вт.
+          <br>
+          <br>
+          Соотношение величин полной и активной мощностей ИБП POWERMAN указывается в характеристиках конкретной модели
+          на сайте <a href="www.powerman.ru">www.powerman.ru</a> и в Руководстве пользователя.
+        </div>
+      </div>
+      <div class="faq-items__item faq-item">
+        <div class="faq-item__title faq-item__title-js item-header">
+          <p class="faq-item__title-text">Как определить мощность ИБП?</p>
+          <div class="faq-item__title-sign">
+            <div class="sign-line-1 sign-line"></div>
+            <div class="sign-line-2 sign-line"></div>
+          </div>
+        </div>
+        <div class="faq-item__text faq-item__text-js">
+          При покупке ИБП клиенты часто не обращают внимание на то, что в обозначении модели ИБП приводится его полная
+          мощность в Вольт-Амперах (ВА). При этом, активная мощность ИБП, которая измеряется в Ваттах (Вт), меньше
+          полной мощности. Например: максимальная активная мощность ИБП Back Pro 600 (600 ВА) составляет 360 Вт;
+          максимальная активная мощность ONLINE 1000 - 800 Вт.
+          <br>
+          <br>
+          Соотношение величин полной и активной мощностей ИБП POWERMAN указывается в характеристиках конкретной модели
+          на сайте <a href="www.powerman.ru">www.powerman.ru</a> и в Руководстве пользователя.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        <section class="contacts">
+  <div class="contacts__container container">
+    <div class="contacts__content">
+      <div class="contacts__offices">
+        <div class="contacts-service__content">
+          <div class="contacts-offices__header section-header">
+            наши офисы
+          </div>
+          <div class="contacts-offices__items">
+            <div class="contacts-item">
+              <div class="contacts-item__header">
+                Москва
+              </div>
+              <div class="contacts-item__address">
+                <span><a href="#">127018 Москва, ул. Складочная, д.1, стр. 15</a>
+                  (ст. м. Савёловская)</span>
+              </div>
+              <div class="contacts-item__phone">
+                <span><a href="tel:84955102770">+ 7 (495) 510-27-70</a></span>
+              </div>
+              <div class="contacts-item__fax">
+                <span><a href="fax:84955102771">+ 7 (495) 510-27-71</a></span>
+              </div>
+            </div>
+            <div class="contacts-item">
+              <div class="contacts-item__header">
+                Москва
+              </div>
+              <div class="contacts-item__address">
+                <span><a href="#">127018 Москва, ул. Складочная, д.1, стр. 15</a>
+                  (ст. м. Савёловская)</span>
+              </div>
+              <div class="contacts-item__phone">
+                <span><a href="tel:84955102770">+ 7 (495) 510-27-70</a></span>
+              </div>
+              <div class="contacts-item__fax">
+                <span><a href="fax:84955102771">+ 7 (495) 510-27-71</a></span>
+              </div>
+            </div>
+            <div class="contacts-item">
+              <div class="contacts-item__header">
+                Москва
+              </div>
+              <div class="contacts-item__address">
+                <span> <a href="#">127018 Москва, ул. Складочная, д.1, стр. 15</a>
+                  (ст. м. Савёловская)</span>
+              </div>
+              <div class="contacts-item__phone">
+                <span><a href="tel:84955102770">+ 7 (495) 510-27-70</a></span>
+              </div>
+              <div class="contacts-item__fax">
+                <span> <a href="fax:84955102771">+ 7 (495) 510-27-71</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="contacts__service">
+        <div class="contacts-service__content">
+          <div class="contacts-service__header section-header">
+            сервисные центры
+          </div>
+          <div class="contacts-service__items">
+            <div class="contacts-offices__items">
+              <div class="contacts-item">
+                <div class="contacts-item__header">
+                  Москва
+                </div>
+                <div class="contacts-item__address">
+                  <span> <a href="#">127018 Москва, ул. Складочная, д.1, стр. 15</a>
+                    (ст. м. Савёловская)</span>
+                </div>
+                <div class="contacts-item__phone">
+                  <span> <a href="tel:84955102770">+ 7 (495) 510-27-70</a></span>
+                </div>
+                <div class="contacts-item__fax">
+                  <span> <a href="fax:84955102771">+ 7 (495) 510-27-71</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="contacts-offices__items">
+              <div class="contacts-item">
+                <div class="contacts-item__header">
+                  Москва
+                </div>
+                <div class="contacts-item__address">
+                  <span><a href="#">127018 Москва, ул. Складочная, д.1, стр. 15</a>
+                    (ст. м. Савёловская)</span>
+                </div>
+                <div class="contacts-item__phone">
+                  <span><a href="tel:84955102770">+ 7 (495) 510-27-70</a></span>
+                </div>
+                <div class="contacts-item__fax">
+                  <span> <a href="fax:84955102771">+ 7 (495) 510-27-71</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contacts-service__btns">
+          <a href='#' class="contacts-service__btns-services btn">
+            Авторизованные сервисы
+          </a>
+          <a href='#' class="contacts-service__btns-callback btn">
+            Написать нам
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      </div>
+    </main>
+  </div>
+  <footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__left">
+      <div class="footer__logo">
+        <img src="img/footer_logo.png" alt="Powerman">
+      </div>
+      <div class="footer__social">
+          <button class="footer-social__vk">
+            <svg class='footer-social__vk-logo' width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7.67874 8.38095C3.17436 8.38095 0.440752 5.23227 0.334473 0H2.61583C2.68695 3.8435 4.42252 5.47458 5.75301 5.80707V0H7.94004V3.31614C9.22335 3.17286 10.5658 1.66411 11.0181 0H13.1684C12.824 2.04735 11.3625 3.55606 10.3285 4.17839C11.3625 4.68157 13.0261 5.99868 13.6678 8.38095H11.3034C10.8039 6.78847 9.57974 5.55509 7.94004 5.38763V8.38095H7.67874Z"
+                fill="white" />
+            </svg>
+          </button>
+      </div>
+    </div>
+    <div class="footer__navs">
+      <nav class="footer-nav__products">
+        <div class="footer-nav__title">Продукция</div>
+        <a href="#" class="footer-nav__link">ИБП</a>
+        <a href="#" class="footer-nav__link">Стабилизаторы</a>
+        <a href="#" class="footer-nav__link">Батареи</a>
+        <a href="#" class="footer-nav__link">LI-ION, NI-CD аккумуляторы</a>
+      </nav>
+      <nav class="footer-nav__company">
+        <div class="footer-nav__title">Компания</div>
+        <a href="#" class="footer-nav__link">О нас</a>
+        <a href="#" class="footer-nav__link">О торговых марка</a>
+        <a href="#" class="footer-nav__link">Новости</a>
+        <a href="#" class="footer-nav__link">Сотрудничество по АКБ ЗАРЯД</a>
+        <a href="#" class="footer-nav__link">Для прессы</a>
+        <a href="#" class="footer-nav__link">Контакты</a>
+      </nav> 
+      <nav class="footer-nav__support">
+        <div class="footer-nav__title">Поддержка</div>
+        <a href="#" class="footer-nav__link">Вопрос-ответ ИБП</a>
+        <a href="#" class="footer-nav__link">Вопрос-ответ Стабилизаторы</a>
+        <a href="#" class="footer-nav__link">Гарантийная политика</a>
+        <a href="#" class="footer-nav__link">Правила обслуживания ИБП</a>
+        <a href="#" class="footer-nav__link">Правила обслуживания Стабилизаторов</a>
+        <a href="#" class="footer-nav__link">Центр загрузки ПО и документации</a>
+        <a href="#" class="footer-nav__link">Сервисные центры</a>
+      </nav>
+    </div>
+  </div>
+  <div class="footer__copyright container">
+    Все права защищены 2014 - 2023 ©
+    <a href="#" class="footer-copyright__policy">Политика конфиденциальности</a>
+  </div>
+</footer>
+  <script src='js/app.min.js'></script>
+
+</body>
+
+</html>
